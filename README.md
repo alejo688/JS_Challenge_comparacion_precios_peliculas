@@ -1,0 +1,2 @@
+# JS_Challenge_comparacion_precios_peliculas
+Reto JS Challenge Platzi
