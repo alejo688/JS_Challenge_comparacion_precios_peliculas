@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Comparador de precios</h1>
+    </header>
+    <section>
+        <form>
+            <div>
+                <label for="cantidadPeliculas">Cuantas peliculas quieres ver?</label>
+                <input id="cantidadPeliculas" type="number" required>
+            </div>
+            <div>
+                <label for="meses">En cuantos meses?</label>
+                <input id="meses" type="number" required>
+            </div>
+            <div>
+                <label for="personas">Cuantas personas verian las peliculas?</label>
+                <input id="personas" type="number" required>
+            </div>
+            <div>
+                <label for="cantidadPlataformas">Cuantas plataformas estas pagando actualmente?</label>
+                <input id="cantidadPlataformas" type="number" required>
+            </div>
+            <div>
+                <label for="valorPromedioPlataformas">Precio promedio plataformas de streaming</label>
+                <input id="valorPromedioPlataformas" type="text" readonly>
+            </div>
+            <div>
+                <label for="valorPromedioCinema">Precio promedio salas de cines</label>
+                <input id="valorPromedioCinema" type="text" readonly>
+            </div>
+            <div>
+                <button type="button" onclick="compararPrecios()">Comparar</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        Platzi JS Challenger - alejo688 - 2021
+    </footer>
+    <script src="./precios_plataformas.js"></script>
+    <script src="./precios_cinemas.js"></script>
+    <script src="./comparador.js"></script>
+</body>
+</html>
